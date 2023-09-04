@@ -1,4 +1,4 @@
-#include <stdlib.h>
+#include "lists.h"
 
 /**
  * get_nodeint_at_index - Find a node in a list.
