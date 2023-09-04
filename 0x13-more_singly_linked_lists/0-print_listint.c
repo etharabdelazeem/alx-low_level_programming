@@ -12,7 +12,7 @@ size_t print_listint(const listint_t *h)
 
 	while (h != NULL)
 	{
-		putchar(h->n);
+		_putchar(h->n);
 		h = h->next;
 		nnodes++;
 	}
