@@ -44,7 +44,7 @@ void print_array(int *array, unsigned long int start, unsigned long int stop)
 	printf("Searching in array:");
 	for (j = start; j < stop + 1; j++)
 	{
-		printf("%d", array[j]);
+		printf(" %d", array[j]);
 		if (j < stop)
 			printf(",");
 	}
